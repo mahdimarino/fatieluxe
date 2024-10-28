@@ -3,7 +3,7 @@
         
         <div>
             <a href="" class="sidebar-logo">
-                <span><span class="brand-color">DEMANDGINE
+                <span><span class="brand-color">FatieLuxe
             </a>
             <small class="sidebar-logo-headline">Analytics Dashboard</small>
         </div>

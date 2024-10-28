@@ -1931,7 +1931,7 @@ pre code {
 }
 
 .table-sideborder td:first-child {
-  border-left: 4px solid #00d4c8;
+  border-left: 4px solid #cba956;
   transition: border-left-width 100ms linear;
 }
 
@@ -11340,7 +11340,7 @@ a.badge-danger-light:focus {
 }
 
 .btn-brand {
-  background-color: #00d4c8;
+  background-color: #cba956;
   border-color: transparent;
   color: #fff;
 }
@@ -17107,8 +17107,8 @@ body {
 }
 
 .sidebar-logo .brand-color {
-  color: #00d4c8 !important;
-  background: -webkit-linear-gradient(#00d4c8, #00d4c8);
+  color: #cba956 !important;
+  background: -webkit-linear-gradient(#cba956, #cba956);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -17243,7 +17243,7 @@ body {
 }
 
 .nav-sidebar .nav-link.active {
-  background-color: #00d4c8;
+  background-color: #cba956;
   color: rgba(255, 255, 255, 0.9);
 }
 

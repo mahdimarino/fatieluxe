@@ -28,7 +28,7 @@
         <div class="signin-sidebar">
             <div class="signin-sidebar-body">
                 <a class="sidebar-logo mg-b-40">
-                    <img src="{{ asset('assets/logo.png') }}" alt="DemandGine" class="img-fluid logo">
+                    <img src="{{ asset('https://fatieluxe.com/css/website/images/logo-dark.png') }}" alt="DemandGine" class="img-fluid logo">
                     {{-- <span>here<span class="brand-color">X</span>here</span> --}}
                 </a>
                 <h4 class="signin-title">Welcome back!</h4>

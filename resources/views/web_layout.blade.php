@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tayler Taylers HTML Template</title>
+    <title>FatieLuxe</title>
     <!-- Stylesheets -->
     <link href="{{asset('css/website/css/bootstrap.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('css/website/css/style.css') }}" rel="stylesheet">
@@ -20,8 +20,8 @@
         href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=DM+Sans:wght@400;500;700&display=swap"
         rel="stylesheet">
 
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://fatieluxe.com/css/website/images/logo-dark.png" type="image/x-icon">
+    <link rel="icon" href="https://fatieluxe.com/css/website/images/logo-dark.png" type="image/x-icon">
 
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
