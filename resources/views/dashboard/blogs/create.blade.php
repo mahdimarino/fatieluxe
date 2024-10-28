@@ -16,24 +16,31 @@
         <input type="hidden" name="content" id="quill-content1"> 
         <div class="row">
             <div class="form-group col-6">
-                <label>Blog Title <span class="tx-danger">*</span></label>
+                <label>Product Title <span class="tx-danger">*</span></label>
                 <div class="input-group">
                     <input type="text" name="title" class="form-control" required>
                 </div>
             </div>
              <div class="form-group col-6">
-                <label>Blog Image Cover <span class="tx-danger"></span></label>
+                <label>Product Image <span class="tx-danger"></span></label>
                 <div class="input-group">
-                    <input type="file" name="blog_image" class="form-control" >
+                    <input type="file" name="blog_image" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-group col-6">
+                <label>Description <span class="tx-danger">*</span></label>
+                <div class="input-group">
+                    <input type="text" name="desc" class="form-control" required>
                 </div>
             </div>
           
-            <div class="form-group col-6">
+            {{-- <div class="form-group col-6">
                 <label>Post Date <span class="tx-danger">*</span></label>
                 <div class="input-group">
                     <input type="date" name="post_date" class="form-control" required>
                 </div>
-            </div>
+            </div> --}}
            
            
            
@@ -43,10 +50,11 @@
                 <label>Blog Category <span class="tx-danger">*</span></label>
                 <select name="category" class="form-control" required>
                     @foreach ([
-                    'Category 1',
-                    'Category 2',
-                    'Category 3',
-                    'Category 4',
+                   
+                    'perfume',
+                    'bags',
+                    'accessories',
+                    'clothing',
                     ] as $category)
                     <option value="{{ $category }}">{{
                         $category }}</option>

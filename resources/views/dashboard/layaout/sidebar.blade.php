@@ -15,20 +15,20 @@
                 <a href="{{ route('dashboard.blogs.blog-form') }}" @class(['nav-link', 'active'=>
                     (Str::startsWith(Route::currentRouteName(), 'blogs.') && (Route::currentRouteName()
                     !== "blogs.create"))])>
-                    <i class="fa fa-pencil-alt"></i> Create Blog
+                    <i class="fa fa-pencil-alt"></i> Add Product
                 </a>
             </li>
             <li class="nav-item">
                 <a href="{{ route('dashboard.blogs.list') }}" @class([ 'nav-link' , 'active'=> (Route::currentRouteName() ==
                     'dashboard.index')
                     ])>
-                    <i class="fa fa-list"></i> Blog list
+                    <i class="fa fa-list"></i> Product List
                 </a>
-                <a href="" @class([ 'nav-link' , 'active'=> (Route::currentRouteName() ==
+                {{-- <a href="" @class([ 'nav-link' , 'active'=> (Route::currentRouteName() ==
                     'dashboard.index')
                     ])>
                     <i class="fa fa-list"></i> Blog Categories
-                </a>
+                </a> --}}
             </li>
         </ul>
     </div>

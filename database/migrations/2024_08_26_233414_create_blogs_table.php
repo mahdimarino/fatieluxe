@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('title'); // Blog title
             $table->string('category'); // Blog type (campaign_type)
-            $table->date('post_date'); // Start date of the blog
-            $table->text('content'); // Content from the Quill editor
+            $table->date('post_date')->nullable();; // Start date of the blog
+            $table->text('content')->nullable();; // Content from the Quill editor
             $table->string('image_path')->nullable(); // Image path for the uploaded blog image
             $table->timestamps();
         });

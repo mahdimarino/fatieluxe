@@ -17,8 +17,9 @@ class BlogController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|string|max:255',
           'category' => 'required|string',
-            'post_date' => 'required|date',
-            'content' => 'required|string',
+            'desc' => 'nullable|string',
+          
+            'content' => 'nullable|string',
            'blog_image' => 'mimes:jpeg,png,jpg,gif,svg',
         ]);
         
@@ -26,7 +27,9 @@ class BlogController extends Controller
         $blog = new \App\Models\Blog();
        $blog->title = $validatedData['title'];
        $blog->category = $validatedData['category'];
-        $blog->post_date = $validatedData['post_date'];
+        $blog->desc = $validatedData['desc'];
+
+        
         $blog->content = $validatedData['content'];
 
 
@@ -55,16 +58,18 @@ class BlogController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|string|max:255',
             'category' => 'required|string',
-            'post_date' => 'required|date',
-            'content' => 'required|string',
+            'post_date' => 'nullable|date',
+            'desc' => 'nullable|string',
+            'content' => 'nullable|string',
             'blog_image' => 'mimes:jpeg,png,jpg,gif,svg',
         ]);
 
         // Update the blog fields
         $blog->title = $validatedData['title'];
         $blog->category = $validatedData['category'];
-        $blog->post_date = $validatedData['post_date'];
+        //$blog->post_date = $validatedData['post_date'];
         $blog->content = $validatedData['content'];
+        $blog->desc = $validatedData['desc'];
 
         // Handle the image if it's uploaded
         if ($request->hasFile('blog_image')) {
@@ -96,6 +101,20 @@ class BlogController extends Controller
         return view('dashboard.blogs.list', compact('blogs'));
     }
 
+
+
+    public function all($category = null)
+    {
+        $query = Blog::orderBy('created_at', 'desc');
+
+        if ($category) {
+            $query->where('category', $category);
+        }
+
+        $blogs = $query->get();
+
+        return view('all', compact('blogs', 'category'));
+    }
     public function editBlog(int $blogId)
     {
         

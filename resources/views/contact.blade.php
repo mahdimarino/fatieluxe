@@ -42,7 +42,7 @@
     <div class="auto-container">
         <div class="contact-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55945.16225505631!2d-73.90847969206546!3d40.66490264739892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1601263396347!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.898338568243!2d55.192926575863666!3d25.116095826456234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bf1895c6183%3A0x6e0c7fbd380a3b17!2sAl%20Barsha%20Night%20Market!5e0!3m2!1sen!2sae!4v1698322593967!5m2!1sen!2sae"
                 width="600" height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen=""
                 aria-hidden="false" tabindex="0"></iframe>
         </div>
@@ -58,19 +58,19 @@
                     <div class="inner-box">
                         <div class="contact-info-section_text">Send Email</div>
                         <h4 class="contact-info-section_title"><a
-                                href="mailto:neehelp@company.com">neehelp@company.com</a></h4>
+                                href="mailto:style@fatieluxe.com">style@fatieluxe.com</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 icon_box">
                     <div class="inner-box">
                         <div class="contact-info-section_text">Call 24/7</div>
-                        <h4 class="contact-info-section_title"><a href="tel:+1(246)3330791">+1 (246) 333 0791</a></h4>
+                        <h4 class="contact-info-section_title"><a href="tel:+971502238132">+971 50 223 8132</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 icon_box">
                     <div class="inner-box">
                         <div class="contact-info-section_text">Visit Anytime</div>
-                        <h4 class="contact-info-section_title">66 Road Broklyn Street, New York</h4>
+                        <h4 class="contact-info-section_title">Night Market, Backside Of Mall of emirates</h4>
                     </div>
                 </div>
             </div>
@@ -84,9 +84,9 @@
     <div class="auto-container">
         <div class="contact-form-section_sec-title-area">
             <h2 class="sec-title">Send us a Message <br> Anytime</h2>
-            <div class="contact-form-section_description">Quisque id tempus nibh, in varius nunc. Mauris non convallis
+            {{-- <div class="contact-form-section_description">Quisque id tempus nibh, in varius nunc. Mauris non convallis
                 nulla. <br> Morbi at urna hendrerit, finibus justo a, pellentesque diam. Vivamus <br> lacus metus,
-                placerat ullamcorper turpis et.</div>
+                placerat ullamcorper turpis et.</div> --}}
         </div>
         <div class="row">
             <div class="col-lg-8">
@@ -124,13 +124,13 @@
                     </form>
                 </div>
             </div>
-            <div class="col-lg-3 offset-lg-1">
+            {{-- <div class="col-lg-3 offset-lg-1">
                 <div class="contact-author">
                     <div class="contact-author_thumb"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-38.jpg" alt=""></div>
                     <div class="contact-author_name">Kevin Martin</div>
                     <div class="contact-author_designation">Expert Tayler</div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

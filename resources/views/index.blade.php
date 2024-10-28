@@ -27,29 +27,29 @@
     <div class="swiper-container banner-slider">
         <div class="swiper-wrapper">
             <!-- Slide Item -->
-            <div class="swiper-slide" style="background-image: url(https://html.tonatheme.com/2022/tayler/assets/images/main-slider/image-1.jpg);">
+            <div class="swiper-slide" style="background-image: url({{asset('css/website/images/background/imgbgdark.jpg')}});">
                 <div class="content-outer">
                     <div class="content-box">
                         <div class="inner">
-                            <h4>Welcome to Quality Tayler</h4>
-                            <h1>our Personal <br>
-                                Quality tayler</h1>
+                           <h4>Welcome to  FatieLuxe</h4>
+                            <h1>Where Elegance <br> Meets Styles</h1>
+                        
                             <div class="link-box">
-                                <a href="services.html" class="theme-btn btn-style-one"><span>discover more</span></a>
+                                <a href="index.php#serviceweoffer" class="theme-btn btn-style-one"><span>discover more</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Slide Item -->
-            <div class="swiper-slide" style="background-image: url(https://html.tonatheme.com/2022/tayler/assets/images/main-slider/image-2.jpg);">
+             <div class="swiper-slide" style="background-image: url({{asset('css/website/images/background/IMG_3255.jpg')}});">
                 <div class="content-outer">
                     <div class="content-box">
                         <div class="inner">
-                            <h4>Welcome to Quality Tayler</h4>
+                            <h4>Welcome to FatieLuxe</h4>
                             <h1>Create your <br> own Personal Style</h1>
                             <div class="link-box">
-                                <a href="services.html" class="theme-btn btn-style-one"><span>discover more</span></a>
+                                <a href="index.php#serviceweoffer" class="theme-btn btn-style-one"><span>discover more</span></a>
                             </div>
                         </div>
                     </div>
@@ -80,28 +80,32 @@
                             <div class="image-two" data-parallax='{"y": 30}'><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-1.jpg" alt=""></div>
                         </div>
                     </div>
-                    <div class="experience-year">
+                    {{-- <div class="experience-year">
                         <h3>20</h3>Years of <br>Practicing
-                    </div>
+                    </div> --}}
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div id="aboutus" class="col-lg-5">
                 <div class="sec-title-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="sec-title-dec"><img src="https://html.tonatheme.com/2022/tayler/assets//images/shape/shape-1.png" alt=""></div>
-                    <div class="sub-title">Checkout our services</div>
-                    <h2 class="sec-title mb-35">Introducing the Quality Taylers in Town</h2>
+                    {{-- <div class="sub-title">Checkout our services</div> --}}
+                    <h2 class="sec-title mb-35">Introducing the FatieLuxe</h2>
                 </div>
-                <div class="text">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua lonm andhn.</div>
+                <div class="text">Founded in 2024 by a woman with a passion for elegance and style, our apparel company is dedicated to bringing unique,
+                high-quality clothing and accessories to life. We offer a curated selection of stylish pieces that can be tailored to
+                each customer’s vision, ensuring a personal touch in every detail.  Our
+                mission is simple: to celebrate individuality through fashion that feels as good as it looks.</div>
                 <ul class="list">
-                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt=""> Nsectetur cing elit.</li>
-                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt="">Suspe ndisse suscipit sagittis leo.</li>
-                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt="">Entum estibulum dignissim posuere.</li>
-                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt="">Donec eros libero, dignissim eget.</li>
+                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt=""> Custom Apparel Design</li>
+                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt="">Premium T-Shirt Printing</li>
+                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt="">Personalized Accessories</li>
+                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt="">Product Rebranding</li>
+                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt="">High-Quality Clothing Customization</li>
+                    <li><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-2.png" alt="">Perfume Bottling</li>
                 </ul>
                 <div class="author-wrapper wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="author-thumb"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-1.png" alt=""></div>
-                    <div class="signature"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-2.png" alt=""></div>
+                    {{-- <div class="author-thumb"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-1.png" alt=""></div> --}}
+                    {{-- <div class="signature"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-2.png" alt=""></div> --}}
                 </div>
             </div>
         </div>
@@ -116,17 +120,39 @@
             <div class="sub-title">Checkout our services</div>
             <h2 class="sec-title">Services We Offer</h2>
         </div>
-        <div class="theme_carousel owl-theme owl-carousel owl-style-one"
+        <div  class="theme_carousel owl-theme owl-carousel owl-style-one"
             data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "480" :{ "items" : "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "992":{ "items" : "3", "center": true }, "1200":{ "items" : "3", "center": true }}}'>
-            <div class="col-lg-12 service-block-one">
+            <div id="serviceweoffer" class="col-lg-12 service-block-one">
                 <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-3.jpg" alt=""></div>
-                    <h4><a href="suits-shirts.html">Suits & Shirts</a></h4>
-                    <div class="text">Donec suscipit ipsum quis est <br> mentum, quis sollicitudin libero <br> dmes
-                        tempus.</div>
+                    <h4><a href="suits-shirts.html">Custom Apparel Design</a></h4>
+                    <div class="text">Tailored clothing designs allowing customers to choose styles, fabrics, and finishes.</div>
                 </div>
             </div>
             <div class="col-lg-12 service-block-one">
+                <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-4.jpg" alt=""></div>
+                    <h4><a href="wedding-dresses.html">Premium T-Shirt Printing</a></h4>
+                    <div class="text">High-quality, long-lasting prints for personalized t-shirt designs.
+                    Personalized Accessories – Customizable accessories like hats and bags to complete any outfit.</div>
+                </div>
+            </div>
+            <div class="col-lg-12 service-block-one">
+                <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-5.jpg" alt=""></div>
+                    <h4><a href="stylish-clothing.html">Product Rebranding</a></h4>
+                    <div class="text">Revamping and rebranding products to align with customer vision and style.
+                    High-Quality Clothing Customization – Detailed alterations and customizations to ensure a perfect fit and style.</div>
+                </div>
+            </div>
+            <div class="col-lg-12 service-block-one">
+                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-3.jpg" alt=""></div>
+                    <h4><a href="suits-shirts.html">Perfume Bottling</a></h4>
+                    <div class="text">Customized perfume bottling for personalized and branded fragrance lines</div>
+                </div>
+            </div>
+            {{-- <div class="col-lg-12 service-block-one">
                 <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-4.jpg" alt=""></div>
                     <h4><a href="wedding-dresses.html">Wedding Dresses</a></h4>
@@ -141,31 +167,7 @@
                     <div class="text">Donec suscipit ipsum quis est <br> mentum, quis sollicitudin libero <br> dmes
                         tempus.</div>
                 </div>
-            </div>
-            <div class="col-lg-12 service-block-one">
-                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-3.jpg" alt=""></div>
-                    <h4><a href="suits-shirts.html">Suits & Shirts</a></h4>
-                    <div class="text">Donec suscipit ipsum quis est <br> mentum, quis sollicitudin libero <br> dmes
-                        tempus.</div>
-                </div>
-            </div>
-            <div class="col-lg-12 service-block-one">
-                <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-4.jpg" alt=""></div>
-                    <h4><a href="wedding-dresses.html">Wedding Dresses</a></h4>
-                    <div class="text">Donec suscipit ipsum quis est <br> mentum, quis sollicitudin libero <br> dmes
-                        tempus.</div>
-                </div>
-            </div>
-            <div class="col-lg-12 service-block-one">
-                <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-5.jpg" alt=""></div>
-                    <h4><a href="stylish-clothing.html">Stylish Clothing</a></h4>
-                    <div class="text">Donec suscipit ipsum quis est <br> mentum, quis sollicitudin libero <br> dmes
-                        tempus.</div>
-                </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
@@ -180,18 +182,20 @@
                         <div class="funfacts-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms"
                             style="background-image: url(https://html.tonatheme.com/2022/tayler/assets/images/resource/image-6.jpg);">
                             <div class="content-middle">
-                                <div class="funfacts-block_icon"><i class="flaticon-suit"></i></div>
-                                <h4 class="funfacts-block_title">Suits Stich</h4>
+                               <div class="count-outer count-box funfacts-block_number">
+                                    <span class="count-text" data-speed="3000" data-stop="50">0</span><span class="plus">+</span>
+                                </div>
+                                <h4 class="funfacts-block_title">Available Illustration</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="funfacts-block wow fadeInDown" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="content-middle">
-                                <div class="count-outer count-box funfacts-block_number">
-                                    <span class="count-text" data-speed="3000" data-stop="8800">0</span>
+                               <div class="count-outer count-box funfacts-block_number">
+                                    <span class="count-text" data-speed="3000" data-stop="100">0</span><span class="plus">+</span>
                                 </div>
-                                <h4 class="funfacts-block_title">Dresses Stitched</h4>
+                                <h4 class="funfacts-block_title">Happy Clients</h4>
                             </div>
                         </div>
                     </div>
@@ -203,8 +207,10 @@
                         <div class="funfacts-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms"
                             style="background-image: url(https://html.tonatheme.com/2022/tayler/assets/images/resource/image-7.jpg);">
                             <div class="content-middle">
-                                <div class="funfacts-block_icon"><i class="flaticon-measuring"></i></div>
-                                <h4 class="funfacts-block_title">Body Measure</h4>
+                                <div class="count-outer count-box funfacts-block_number">
+                                    <span class="count-text" data-speed="3000" data-stop="3">0</span><span class="plus"></span>
+                                </div>
+                                <h4 class="funfacts-block_title">branches accross UAE</h4>
                             </div>
                         </div>
                     </div>
@@ -212,10 +218,10 @@
                         <div class="funfacts-block wow fadeInDown" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="content-middle">
                                 <div class="count-outer count-box funfacts-block_number">
-                                    <span class="count-text" data-speed="3000" data-stop="24">0</span><span
+                                    <span class="count-text" data-speed="3000" data-stop="200">0</span><span
                                         class="plus">+</span>
                                 </div>
-                                <h4 class="funfacts-block_title">Expert Taylers</h4>
+                                <h4 class="funfacts-block_title">Items Sold</h4>
                             </div>
                         </div>
                     </div>
@@ -235,11 +241,12 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="inner-container">
-                        <div class="sec-title-dec"><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-1.png" alt=""></div>
-                        <div class="sub-title light">Checkout our services</div>
-                        <h2 class="sec-title light mb-30">Wedding or Causual <br> Suits Services?</h2>
-                        <div class="text light mb-30">Lorem ipsum dolor sit amet, consectetur notted <br> adipisicing
-                            elit sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua lonm andhn.
+                        {{-- <div class="sec-title-dec"><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-1.png" alt=""></div>
+                        <div class="sub-title light">Checkout our services</div> --}}
+                        <h2 class="sec-title light mb-30">Why us?</h2>
+                        <div class="text light mb-30">Experience the best in customized fashion with Fatieluxe. <br> We offer a diverse range of high-quality clothing,
+                        accessories, and personalized perfumes, all tailored to your unique style. <br> With exceptional craftsmanship and timely
+                        delivery, we ensure that your fashion is truly yours!
                         </div>
                         <div class="link-btn"><a href="services.html" class="btn-style-one">discover more</a></div>
                     </div>
@@ -253,33 +260,29 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="service-block-two wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="service-block-two_icon"><i class="flaticon-botton"></i></div>
-                        <h4 class="service-block-two_title">Quality Fabric</h4>
-                        <div class="service-block-two_text">Lorem ipsum dolor sit amet con adipisicing elit sed do
-                            eiusmod tempor. nec fini ante pretium quis.</div>
+                        <h4 class="service-block-two_title">Wide Range of Product Types</h4>
+                        <div class="service-block-two_text">We offer diverse products, from clothing and accessories to custom perfumes, catering to various style needs.</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-block-two wow fadeInDown" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="service-block-two_icon"><i class="flaticon-seam-ripper"></i></div>
-                        <h4 class="service-block-two_title">Finest Work</h4>
-                        <div class="service-block-two_text">Lorem ipsum dolor sit amet con adipisicing elit sed do
-                            eiusmod tempor. nec fini ante pretium quis.</div>
+                        <h4 class="service-block-two_title">Premium Quality</h4>
+                        <div class="service-block-two_text">From fabrics to prints, we prioritize quality, ensuring every item feels and looks exceptional.</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-block-two wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
                         <div class="service-block-two_icon"><i class="flaticon-embroidery"></i></div>
-                        <h4 class="service-block-two_title">Unique Design</h4>
-                        <div class="service-block-two_text">Lorem ipsum dolor sit amet con adipisicing elit sed do
-                            eiusmod tempor. nec fini ante pretium quis.</div>
+                        <h4 class="service-block-two_title">Diverse Services</h4>
+                        <div class="service-block-two_text">Offering everything from custom apparel to perfume bottling, we’re a one-stop shop for personalized style.</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-block-two wow fadeInDown" data-wow-delay="700ms" data-wow-duration="1500ms">
                         <div class="service-block-two_icon"><i class="flaticon-thread"></i></div>
                         <h4 class="service-block-two_title">Timely Deliver</h4>
-                        <div class="service-block-two_text">Lorem ipsum dolor sit amet con adipisicing elit sed do
-                            eiusmod tempor. nec fini ante pretium quis.</div>
+                        <div class="service-block-two_text">We prioritize efficient timelines to ensure your customized products are ready when you need them.</div>
                     </div>
                 </div>
             </div>
@@ -293,21 +296,21 @@
         <div class="row no-gutters">
             <div class="col-xl-6">
                 <div class="testimonial-block-wrapper">
-                    <div class="sec-bg" style="background-image: url(https://html.tonatheme.com/2022/tayler/assets/images/background/bg-1.jpg);"></div>
+                    <div class="sec-bg"></div>
                     <div class="testimonial-block">
                         <h4 class="testimonial-block_title">What They’re Saying</h4>
-                        <div class="swiper-container testimonial-thumbs">
+                     <div class="swiper-container testimonial-thumbs">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="author-thumb"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-3.png" alt="">
+                                    <div class="author-thumb">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="author-thumb"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-4.png" alt="">
+                                    <div class="author-thumb">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="author-thumb"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-5.png" alt="">
+                                    <div class="author-thumb">
                                     </div>
                                 </div>
                             </div>
@@ -316,22 +319,17 @@
                         <div class="swiper-container testimonial-content">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="testimonial-block_text">“Aliquam erat volutpat. Suspendisse suscipit
-                                        <br> vestibulum leo a aliquam. In risus di pharetra <br> sed felis nec, euismod
-                                        faucibus velit. Fusce id <br> laoreet nisl. Duis lacinia eleifend.”</div>
-                                    <div class="testimonial-block_name"> Christine Eve</div>
+                                    <div class="testimonial-block_text">“I love my custom t-shirts! The quality is exceptional, and the design process was so easy. I can't wait to order more!”</div>
+                                    <div class="testimonial-block_name"> Ahmed M</div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="testimonial-block_text">“Aliquam erat volutpat. Suspendisse suscipit
-                                        <br> vestibulum leo a aliquam. In risus di pharetra <br> sed felis nec, euismod
-                                        faucibus velit. Fusce id <br> laoreet nisl. Duis lacinia eleifend.”</div>
-                                    <div class="testimonial-block_name"> Christine Eve</div>
+                                    <div class="testimonial-block_text">"The accessories from this company added the perfect touch to my outfits. Highly recommend for anyone looking to stand
+                                    out!"</div>
+                                    <div class="testimonial-block_name"> Samah K.</div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="testimonial-block_text">“Aliquam erat volutpat. Suspendisse suscipit
-                                        <br> vestibulum leo a aliquam. In risus di pharetra <br> sed felis nec, euismod
-                                        faucibus velit. Fusce id <br> laoreet nisl. Duis lacinia eleifend.”</div>
-                                    <div class="testimonial-block_name"> Christine Eve</div>
+                                    <div class="testimonial-block_text">"Their attention to detail and quick delivery blew me away! Will order again."</div>
+                                    <div class="testimonial-block_name"> Amira A.</div>
                                 </div>
                             </div>
                         </div>
@@ -365,7 +363,7 @@
 </section>
 
 <!-- Our Team Section -->
-<section class="our-team-section">
+{{-- <section class="our-team-section">
     <div class="auto-container">
         <div class="sec-title-box text-center">
             <div class="sec-title-dec"><img src="https://html.tonatheme.com/2022/tayler/assets//images/shape/shape-1.png" alt=""></div>
@@ -423,14 +421,14 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <!-- Map Section -->
 <section class="map-section pb-0 pt-0">
     <div class="auto-container full-width">
         <div class="contact-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55945.16225505631!2d-73.90847969206546!3d40.66490264739892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1601263396347!5m2!1sen!2sbd"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.898338568243!2d55.192926575863666!3d25.116095826456234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bf1895c6183%3A0x6e0c7fbd380a3b17!2sAl%20Barsha%20Night%20Market!5e0!3m2!1sen!2sae!4v1698322593967!5m2!1sen!2sae"
                 width="600" height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen=""
                 aria-hidden="false" tabindex="0"></iframe>
         </div>
@@ -445,7 +443,7 @@
                 <div class="cta-block-one_icon-box">
                     <div class="cta-block-one_icon"><i class="flaticon-phone-call"></i></div>
                     <div class="cta-block-one_text-two">Need tayler? Call us</div>
-                    <a class="cta-block-one_phone" href="tel:+1-(246)3330089">+ 1- (246) 333-0089</a>
+                  <a class="cta-block-one_phone" href="tel:+971502238132">+971 50 223 8132</a>
                 </div>
             </div>
             <div class="col-lg-7">
@@ -462,7 +460,7 @@
 </section>
 
 <!-- News Section -->
-<section class="news-section">
+{{-- <section class="news-section">
     <div class="left-outer-container">
         <div class="row">
             <div class="col-xl-3">
@@ -535,10 +533,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <!-- Client Logo -->
-<section class="client-logo">
+{{-- <section class="client-logo">
     <div class="auto-container">
         <div class="theme_carousel owl-theme owl-carousel"
             data-options='{"loop": true, "center": false, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "480" :{ "items" : "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "992":{ "items" : "4" }, "1200":{ "items" : "5" }}}'>
@@ -559,7 +557,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 

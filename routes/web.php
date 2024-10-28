@@ -11,26 +11,26 @@ use App\Http\Controllers\LoginController;
 
  Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 Route::get('blog/list', function () {
     return view('blog.list');
 });
 
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');
 
 Route::get('/services', function () {
     return view('services');
-});
+})->name('services');
 
 Route::get('/products', function () {
     return view('products');
-});
+})->name('products');
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('contact');
 
 // Route::get('/blogs/create', function () {
 //     return view('bolgs.create');
@@ -43,7 +43,11 @@ Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::post('/dashboard/blogs', [BlogController::class, 'store'])->name('insertData')->middleware('auth');
 Route::get('/dashboard/blogs/create', [BlogController::class, 'createBlogForm'])->name('dashboard.blogs.blog-form')->middleware('auth');
 Route::get('/dashboard/blogs/latest', [BlogController::class, 'showLatestBlog'])->name('dashboard.blogs.latest')->middleware('auth');
+
 Route::get('/dashboard/blogs/list', [BlogController::class, 'listBlogs'])->name('dashboard.blogs.list')->middleware('auth');
+//Route::get('/all', [BlogController::class, 'all'])->name('all');
+Route::get('/all/{category?}', [BlogController::class, 'all'])->name('all');
+
 Route::get('/dashboard/blogs/{blogId}/edit', [BlogController::class, 'editBlog'])->name('dashboard.blogs.edit');
 //Route::put('dashboard/blogs/{blog}', [BlogController::class, 'updateBlog'])->name('dashboard.blogs.update')->middleware('auth');
 Route::put('dashboard/blogs/{id}', [BlogController::class, 'update'])->name('dashboard.blogs.update')->middleware('auth');

@@ -37,9 +37,84 @@
         </div>
     </div>
 </section>
+<section class="services-section"
+    style="background-image: url(https://html.tonatheme.com/2022/tayler/assets/images/background/bg-2.jpg);">
+    <div class="auto-container">
+        <div class="sec-title-box text-center">
+            <div class="sec-title-dec"><img
+                    src="https://html.tonatheme.com/2022/tayler/assets//images/shape/shape-1.png" alt=""></div>
+            <div class="sub-title">Checkout our services</div>
+            <h2 class="sec-title">Services We Offer</h2>
+        </div>
+        <div class="theme_carousel owl-theme owl-carousel owl-style-one"
+            data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "480" :{ "items" : "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "992":{ "items" : "3", "center": true }, "1200":{ "items" : "3", "center": true }}}'>
+            <div id="serviceweoffer" class="col-lg-12 service-block-one">
+                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="image img_hover_1"><img
+                            src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-3.jpg" alt="">
+                    </div>
+                    <h4><a href="suits-shirts.html">Custom Apparel Design</a></h4>
+                    <div class="text">Tailored clothing designs allowing customers to choose styles, fabrics, and
+                        finishes.</div>
+                </div>
+            </div>
+            <div class="col-lg-12 service-block-one">
+                <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="image img_hover_1"><img
+                            src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-4.jpg" alt="">
+                    </div>
+                    <h4><a href="wedding-dresses.html">Premium T-Shirt Printing</a></h4>
+                    <div class="text">High-quality, long-lasting prints for personalized t-shirt designs.
+                        Personalized Accessories – Customizable accessories like hats and bags to complete any outfit.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 service-block-one">
+                <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="image img_hover_1"><img
+                            src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-5.jpg" alt="">
+                    </div>
+                    <h4><a href="stylish-clothing.html">Product Rebranding</a></h4>
+                    <div class="text">Revamping and rebranding products to align with customer vision and style.
+                        High-Quality Clothing Customization – Detailed alterations and customizations to ensure a
+                        perfect fit and style.</div>
+                </div>
+            </div>
+            <div class="col-lg-12 service-block-one">
+                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="image img_hover_1"><img
+                            src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-3.jpg" alt="">
+                    </div>
+                    <h4><a href="suits-shirts.html">Perfume Bottling</a></h4>
+                    <div class="text">Customized perfume bottling for personalized and branded fragrance lines</div>
+                </div>
+            </div>
+            {{-- <div class="col-lg-12 service-block-one">
+                <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="image img_hover_1"><img
+                            src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-4.jpg" alt="">
+                    </div>
+                    <h4><a href="wedding-dresses.html">Wedding Dresses</a></h4>
+                    <div class="text">Donec suscipit ipsum quis est <br> mentum, quis sollicitudin libero <br> dmes
+                        tempus.</div>
+                </div>
+            </div>
+            <div class="col-lg-12 service-block-one">
+                <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="image img_hover_1"><img
+                            src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-5.jpg" alt="">
+                    </div>
+                    <h4><a href="stylish-clothing.html">Stylish Clothing</a></h4>
+                    <div class="text">Donec suscipit ipsum quis est <br> mentum, quis sollicitudin libero <br> dmes
+                        tempus.</div>
+                </div>
+            </div> --}}
+        </div>
+    </div>
+</section>
 
 <!-- Services Offer -->
-<section class="service-offer-section">
+{{-- <section class="service-offer-section">
     <div class="auto-container">
         <div class="row">
             <div class="col-lg-6">
@@ -96,10 +171,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <!-- Our Benefits -->
-<section class="benefits-section">
+{{-- <section class="benefits-section">
     <div class="auto-container">
         <div class="row">
             <div class="col-lg-6">
@@ -126,10 +201,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <!-- Features section -->
-<section class="features-section">
+{{-- <section class="features-section">
     <div class="auto-container">
         <div class="row">
             <div class="col-lg-4">
@@ -164,10 +239,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <!-- Client Logo -->
-<section class="client-logo">
+{{-- <section class="client-logo">
     <div class="auto-container">
         <div class="theme_carousel owl-theme owl-carousel"
             data-options='{"loop": true, "center": false, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "480" :{ "items" : "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "992":{ "items" : "4" }, "1200":{ "items" : "5" }}}'>
@@ -188,10 +263,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <!-- Our services -->
-<section class="services-section" style="background-image: url(https://html.tonatheme.com/2022/tayler/assets/images/background/bg-2.jpg);">
+{{-- <section class="services-section" style="background-image: url(https://html.tonatheme.com/2022/tayler/assets/images/background/bg-2.jpg);">
     <div class="auto-container">
         <div class="sec-title-box text-center">
             <div class="sec-title-dec"><img src="https://html.tonatheme.com/2022/tayler/assets/images/shape/shape-1.png" alt=""></div>
@@ -250,10 +325,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <!-- Cta -->
-<section class="cta-section">
+{{-- <section class="cta-section">
     <div class="auto-container">
         <div class="row">
             <div class="col-lg-5">
@@ -274,7 +349,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 @endsection

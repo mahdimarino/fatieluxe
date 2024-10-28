@@ -27,7 +27,7 @@ Blog Posts
                         href="">{{
                         $blog->id }}</a></td>
                 <td>{{ $blog->title}}</td>
-                <td>{{ $blog->post_date }}</td>
+                <td>{{ $blog->category }}</td>
                 <td>
                     <a href="" class="btn btn-sm btn-primary">
                         <i class="fa fa-eye"></i> View
