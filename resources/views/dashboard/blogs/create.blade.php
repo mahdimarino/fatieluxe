@@ -47,7 +47,7 @@
 
         
           <div class="form-group col-6">
-                <label>Blog Category <span class="tx-danger">*</span></label>
+                <label>Product Category <span class="tx-danger">*</span></label>
                 <select name="category" class="form-control" required>
                     @foreach ([
                    

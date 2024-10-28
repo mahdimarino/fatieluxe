@@ -58,8 +58,8 @@ class BlogController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|string|max:255',
             'category' => 'required|string',
-            'post_date' => 'nullable|date',
             'desc' => 'nullable|string',
+
             'content' => 'nullable|string',
             'blog_image' => 'mimes:jpeg,png,jpg,gif,svg',
         ]);

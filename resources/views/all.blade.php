@@ -1,11 +1,11 @@
 @extends('web_layout')
 @section('content')
 <style>
-    .feature-block_hover-content {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3) !important; /* Adjust the values as needed */
-    padding: 15px !important; /* Optional: Add padding to give some space around the content */
-    border-radius: 5px !important; /* Optional: Add rounded corners */
-    background-color: #000000 !important; /* Optional: Set background color */
+    .boxblack {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3) !important; 
+    padding: 15px !important; 
+    border-radius: 5px !important; 
+    background-color: #000000 !important; 
     }
 </style>
 <!--Search Popup-->
@@ -76,15 +76,18 @@
         <div class="row">
             @foreach ($blogs as $blog)
             <div class="col-lg-4">
-                <div class="feature-block">
-                    <div class="feature-block_image"><img src="{{ asset('/' . $blog->image_path) }}" alt=""></div>
-                   <h4 style="color: black; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);" class="feature-block_title">{{ $blog->title }}
-                </h4>
-                    <div class="feature-block_hover-content">
-                        <h4 class="feature-block_title">{{$blog->title}}</h4>
-                        <div class="feature-block_text">{{ $blog->desc }}</div>
+                <a target="_blank" href="{{ asset('/' . $blog->image_path) }}">
+                    <div class="feature-block">
+                        <div class="feature-block_image"><img src="{{ asset('/' . $blog->image_path) }}" alt=""></div>
+                        <h4 class="feature-block_title boxblack">{{ $blog->title }}
+                        </h4>
+                        <div class="feature-block_hover-content boxblack">
+                            {{-- <h4 class="feature-block_title">{{$blog->title}}</h4> --}}
+                            <div class="feature-block_text">{{ $blog->desc }}</div>
+                        </div>
                     </div>
-                </div>
+                </a>
+                
             </div>
            @endforeach
         </div>

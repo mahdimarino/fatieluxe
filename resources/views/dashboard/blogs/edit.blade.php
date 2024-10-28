@@ -28,27 +28,32 @@
                     <input type="file" name="blog_image" class="form-control">
                 </div>
             </div>
-
-            <div class="form-group col-6">
+<div class="form-group col-6">
+    <label>Description <span class="tx-danger">*</span></label>
+    <div class="input-group">
+        <input type="text" name="desc" value="{{$blog->desc}}" class="form-control" required>
+    </div>
+</div>
+            {{-- <div class="form-group col-6">
                 <label>Post Date <span class="tx-danger">*</span></label>
                 <div class="input-group">
                     <input type="date" name="post_date" value="{{$blog->post_date->format('Y-m-d')}}"
                         class="form-control" required>
                 </div>
-            </div>
+            </div> --}}
 
 
 
 
 
             <div class="form-group col-6">
-                <label>Blog Category <span class="tx-danger">*</span></label>
+                <label>Product Category <span class="tx-danger">*</span></label>
                 <select name="category" class="form-control" required>
                     @foreach ([
-                    'Category 1',
-                    'Category 2',
-                    'Category 3',
-                    'Category 4',
+                    'perfume',
+                    'bags',
+                    'accessories',
+                    'clothing',
                     ] as $category)
                     <option value="{{ $category }}" {{ $blog->category == $category ? 'selected' : '' }}>{{
                         $category }}</option>
