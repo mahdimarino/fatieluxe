@@ -609,7 +609,7 @@ img {
 /* Header Top */
 .header-top {
     position: relative;
-    background-color: #484848;
+    background-color: var(--theme-color);
     padding: 8.5px 0;
 }
 
@@ -658,7 +658,7 @@ img {
     position: relative;
     padding-right: 20px;
     font-size: 14px;
-    color: #aaa9b5;
+    color: black;
 }
 
 .header-top ul.contact-info li:before {
@@ -678,11 +678,11 @@ img {
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
-    color: #aaa9b5;
+    color: black;
 }
 
 .header-top ul.contact-info a:hover {
-    color: var(--theme-color);
+    color: white;
 }
 
 .header-top ul.contact-info li i {
@@ -691,7 +691,7 @@ img {
     vertical-align: middle;
     position: relative;
     top: 3px;
-    color: var(--theme-color);
+    color: black;
 }
 
 .header-top .social-icon {
@@ -713,7 +713,7 @@ img {
 }
 
 .header-top .social-icon li a {
-    color: #b3b3b3;
+    color: black;
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
