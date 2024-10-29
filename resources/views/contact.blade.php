@@ -92,26 +92,27 @@
             <div class="col-lg-8">
                 <!--Contact Form-->
                 <div class="contact-form">
-                    <form method="post" action="assets/inc/sendmail.php" id="contact-form">
+                    <form method="post" action="{{ route('sendemail') }}" id="contact-form" method="POST">
+                        @csrf
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="form_name" value=""
+                                <input type="text" class="form-control" name="name" value=""
                                     placeholder="Your Name" required>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="form_email" value=""
+                                <input type="email" class="form-control" name="email" value=""
                                     placeholder="Your Email" required>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="form_phone" value=""
+                                <input type="text" class="form-control" name="mobile_number" value=""
                                     placeholder="Phone Number" required>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="form_subject" value=""
+                                <input type="text" class="form-control" name="subject" value=""
                                     placeholder="Subject" required>
                             </div>
                             <div class="form-group col-md-12">
-                                <textarea name="form_message" class="form-control"
+                                <textarea name="message" class="form-control"
                                     placeholder="Write a massage"></textarea>
                             </div>
                             <div class="form-group col-md-12">

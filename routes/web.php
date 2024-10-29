@@ -4,6 +4,7 @@ use App\Models\Blog;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\MailController;
 
 /* Route::get('/', function () {
     return view('layaout/app');
@@ -36,7 +37,7 @@ Route::get('/contact', function () {
 //     return view('bolgs.create');
 // });
 
-
+Route::post('/send_mail', [MailController::class, 'sendEmail'])->name('sendemail');
 Route::get('/login', [LoginController::class, 'loginForm'])->name('login');
 Route::post('/authenticate', [LoginController::class, 'authenticate'])->name('authenticate');
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
