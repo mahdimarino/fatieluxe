@@ -107,7 +107,7 @@
             <div class="col-lg-6">
                 <div class="introduction-block-two_image-wrapper wow fadeInUp" data-wow-delay="0ms"
                     data-wow-duration="1500ms">
-                    <div class="introduction-block-two_image img_hover_3"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-28.jpg"
+                    <div class="introduction-block-two_image img_hover_3"><img src="{{asset('css/website/images/IMG_3333.png')}}"
                             alt=""></div>
                 </div>
             </div>
@@ -127,17 +127,17 @@
             data-options='{"loop": true, "center": false, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "480" :{ "items" : "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "992":{ "items" : "3" }, "1200":{ "items" : "3" }}}'>
             <div class="testimonial-block-two">
                  <div class="testimonial-block-two_image">
-                    <img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-6.png" alt="">
+                    <img src="" alt="">
                 </div> 
-                <div class="testimonial-block-two_text">"I love my custom t-shirts! The quality is exceptional, and the design process was so easy. I can't wait to order more!"
+                <div class="testimonial-block-two_text mt-5">"I love my custom t-shirts! The quality is exceptional, and the design process was so easy. I can't wait to order more!"
                 </div>
                 <div class="testimonial-block-two_name">Ahmed M.</div>
                 <div class="testimonial-block-two_dasignation">Customer</div>
             </div>
 
             <div class="testimonial-block-two">
-             <div class="testimonial-block-two_image"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-7.png" alt=""></div> 
-                <div class="testimonial-block-two_text">The accessories from this company added the perfect touch to my outfits. Highly recommend for anyone looking to stand
+             <div class="testimonial-block-two_image"><img src="" alt=""></div> 
+                <div class="testimonial-block-two_text mt-5">The accessories from this company added the perfect touch to my outfits. Highly recommend for anyone looking to stand
                 out!
                 </div>
                 <div class="testimonial-block-two_name">Samah K</div>
@@ -145,8 +145,8 @@
             </div>
 
             <div class="testimonial-block-two">
-                 <div class="testimonial-block-two_image"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-8.png" alt=""></div>
-                <div class="testimonial-block-two_text">Their attention to detail and quick delivery blew me away! Will order again
+                 <div class="testimonial-block-two_image"><img class="" src="" alt=""></div>
+                <div class="testimonial-block-two_text mt-5">Their attention to detail and quick delivery blew me away! Will order again
                 </div>
                 <div class="testimonial-block-two_name">Amira A.</div>
                 <div class="testimonial-block-two_dasignation">Customer</div>

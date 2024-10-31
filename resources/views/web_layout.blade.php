@@ -46,7 +46,7 @@
                                 <li><i class="flaticon-pin"></i>Night Market, Backside Of Mall of emirates</li>
                                 <li><a href="mailto:info@company.com"><i class="flaticon-email"></i>style@fatieluxe.com</a>
                                 </li>
-                                <li><i class="flaticon-clock"></i>Mon - Sat 9:00 am to 6:00 pm</li>
+                                <li><i class="flaticon-clock"></i>Mon - Sat 12:00 pm to 1:00 am</li>
                             </ul>
                         </div>
                         <div class="right-column">

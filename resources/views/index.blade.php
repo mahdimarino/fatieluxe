@@ -74,10 +74,10 @@
                 <div class="image-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="image-one" data-parallax='{"y": -30}'><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-2.jpg" alt=""></div>
+                            <div class="image-one" data-parallax='{"y": -30}'><img src="{{asset('css/website/images/newimg2.png')}}" alt=""></div>
                         </div>
                         <div class="col-md-6">
-                            <div class="image-two" data-parallax='{"y": 30}'><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-1.jpg" alt=""></div>
+                            <div class="image-two" data-parallax='{"y": 30}'><img src="{{asset('css/website/images/IMG_3319.png')}}" alt=""></div>
                         </div>
                     </div>
                     {{-- <div class="experience-year">
@@ -124,31 +124,31 @@
             data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "480" :{ "items" : "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "992":{ "items" : "3", "center": true }, "1200":{ "items" : "3", "center": true }}}'>
             <div id="serviceweoffer" class="col-lg-12 service-block-one">
                 <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-3.jpg" alt=""></div>
-                    <h4><a href="suits-shirts.html">Custom Apparel Design</a></h4>
+                    <div class="image img_hover_1"><img style="width: 189px !important"  src="{{asset('css/website/images/IMG_3441.png')}}" alt=""></div>
+                    <h4><a >Custom Apparel Design</a></h4>
                     <div class="text">Tailored clothing designs allowing customers to choose styles, fabrics, and finishes.</div>
                 </div>
             </div>
             <div class="col-lg-12 service-block-one">
                 <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-4.jpg" alt=""></div>
-                    <h4><a href="wedding-dresses.html">Premium T-Shirt Printing</a></h4>
+                    <div class="image img_hover_1"><img style="width: 189px !important"  src="{{asset('css/website/images/IMG_3397.png')}}" alt=""></div>
+                    <h4><a>Premium T-Shirt Printing</a></h4>
                     <div class="text">High-quality, long-lasting prints for personalized t-shirt designs.
                     Personalized Accessories – Customizable accessories like hats and bags to complete any outfit.</div>
                 </div>
             </div>
             <div class="col-lg-12 service-block-one">
                 <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-5.jpg" alt=""></div>
-                    <h4><a href="stylish-clothing.html">Product Rebranding</a></h4>
+                    <div class="image img_hover_1"><img style="width: 189px !important" src="{{asset('css/website/images/brand.png')}}" alt=""></div>
+                    <h4><a >Product Rebranding</a></h4>
                     <div class="text">Revamping and rebranding products to align with customer vision and style.
                     High-Quality Clothing Customization – Detailed alterations and customizations to ensure a perfect fit and style.</div>
                 </div>
             </div>
             <div class="col-lg-12 service-block-one">
                 <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="image img_hover_1"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-3.jpg" alt=""></div>
-                    <h4><a href="suits-shirts.html">Perfume Bottling</a></h4>
+                    <div class="image img_hover_1"><img style="width: 189px !important" src="{{asset('css/website/images/perfum.png')}}" alt=""></div>
+                    <h4><a>Perfume Bottling</a></h4>
                     <div class="text">Customized perfume bottling for personalized and branded fragrance lines</div>
                 </div>
             </div>
@@ -236,7 +236,7 @@
     <div class="top-area">
         <div class="auto-container full-width">
             <div class="row no-gutters">
-                <div class="col-lg-6 image-bg" style="background-image: url(https://html.tonatheme.com/2022/tayler/assets/images/resource/image-8.jpg);">
+                <div class="col-lg-6 image-bg" style="background-image: url({{asset('css/website/images/IMG_3319.jpg')}});">
                     <div class="image d-lg-none"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-8.jpg" alt=""></div>
                 </div>
                 <div class="col-lg-6">
@@ -340,7 +340,7 @@
                 <div class="ml-lg-30">
                     <div class="row no-gutters">
                         <div class="col-lg-6">
-                            <div class="image-100 img_hover_3"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-9.jpg" alt="">
+                            <div class="image-100 img_hover_3"><img style="width: 356px; height:310px" src="{{asset('css/website/images/image4.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -348,11 +348,11 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="image-100 img_hover_3"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-10.jpg" alt="">
+                            <div class="image-100 img_hover_3"><img style="width: 356px; height:310px" src="{{asset('css/website/images/image5.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="image-100 img_hover_3"><img src="https://html.tonatheme.com/2022/tayler/assets/images/resource/image-26.jpg" alt="">
+                            <div class="image-100 img_hover_3"><img style="width: 356px; height:310px" src="{{asset('css/website/images/image6.jpg')}}" alt="">
                             </div>
                         </div>
                     </div>
