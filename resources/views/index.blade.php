@@ -35,7 +35,7 @@
                             <h1>Where Elegance <br> Meets Styles</h1>
                         
                             <div class="link-box">
-                                <a href="index.php#serviceweoffer" class="theme-btn btn-style-one"><span>discover more</span></a>
+                                <a href="{{route('services')}}" class="theme-btn btn-style-one"><span>discover more</span></a>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                             <h4>Welcome to FatieLuxe</h4>
                             <h1>Create your <br> own Personal Style</h1>
                             <div class="link-box">
-                                <a href="index.php#serviceweoffer" class="theme-btn btn-style-one"><span>discover more</span></a>
+                                <a href="{{route('services')}}" class="theme-btn btn-style-one"><span>discover more</span></a>
                             </div>
                         </div>
                     </div>
@@ -248,7 +248,7 @@
                         accessories, and personalized perfumes, all tailored to your unique style. <br> With exceptional craftsmanship and timely
                         delivery, we ensure that your fashion is truly yours!
                         </div>
-                        <div class="link-btn"><a href="services.html" class="btn-style-one">discover more</a></div>
+                        <div class="link-btn"><a href="{{route('services')}}" class="btn-style-one">discover more</a></div>
                     </div>
                 </div>
             </div>
@@ -451,7 +451,7 @@
                     <div class="cta-block-one_text">Lorem ipsum dolor sit amet nsectetur <br>
                         cing elituspe ndisse suscipit sagitis <br>
                         leo sit.</div>
-                    <div class="link-btn"><a href="contact.html"
+                    <div class="link-btn"><a href="{{route('services')}}"
                             class="theme-btn btn-style-one cta-block-one_btn">discover more</a></div>
                 </div>
             </div>
