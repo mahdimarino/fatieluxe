@@ -195,7 +195,7 @@
                                 <div class="count-outer count-box funfacts-block_number">
                                     <span class="count-text" data-speed="3000" data-stop="3">0</span><span class="plus"></span>
                                 </div>
-                                <h4 class="funfacts-block_title">branches accross UAE</h4>
+                                <h4 class="funfacts-block_title">Branches accross UAE</h4>
                             </div>
                         </div>
                     </div>

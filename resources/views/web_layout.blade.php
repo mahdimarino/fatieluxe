@@ -21,6 +21,7 @@
         rel="stylesheet">
 
     <link rel="shortcut icon" href="https://fatieluxe.com/css/website/images/logo-dark.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="https://fatieluxe.com/css/website/images/logo-dark.png" type="image/x-icon">
 
     <!-- Responsive -->
@@ -51,11 +52,11 @@
                         </div>
                         <div class="right-column">
                             <ul class="social-icon">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61567927318661&mibextid=JRoKGi"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.tiktok.com/@fatieluxe?_t=8r5ub7V7ThS&_r=1"><i class="fab fa-tiktok"></i></a></li>
+                                <li><a href="https://www.instagram.com/fatieluxe/profilecard/?igsh=N3o2ZXhkMnB5b3I5"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://wa.me/message/KALW23OQR7TLC1" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                {{-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> --}}
                             </ul>
                         </div>
                     </div>
@@ -130,7 +131,7 @@
                                     <div class="icon"><i class="flaticon-phone-call"></i></div>
                                     <div class="content">
                                         <h5>Call Anytime</h5>
-                                        <h4><a href="tel:+971502238132">+971 50 223 8132</a></h4>
+                                        <h4><a href="tel:+971502238132">+971 50 445 7988</a></h4>
                                     </div>
                                 </div>
                                 {{-- <button type="button" class="theme-btn search-toggler"><i
@@ -191,11 +192,18 @@
                     <!--Social Links-->
                     <div class="social-links">
                         <ul class="clearfix">
-                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-                            <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-                            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                            <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=61567927318661&mibextid=JRoKGi"><span class="fab fa-facebook-square"></span></a></li>
+                            <li><a href="https://www.tiktok.com/@fatieluxe?_t=8r5ub7V7ThS&_r=1"><span class="fab fa-facebook-square"></span></a></li>
+                            {{-- <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li> --}}
+                            <li><a href="https://www.instagram.com/fatieluxe/profilecard/?igsh=N3o2ZXhkMnB5b3I5"><span class="fab fa-instagram"></span></a></li>
+                            <li><a href="https://wa.me/message/KALW23OQR7TLC1"><span class="fab fa-youtube"></span></a></li>
+
+                            {{-- <li><a href="https://www.facebook.com/profile.php?id=61567927318661&mibextid=JRoKGi"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.tiktok.com/@fatieluxe?_t=8r5ub7V7ThS&_r=1"><i class="fab fa-tiktok"></i></a></li>
+                            <li><a href="https://www.instagram.com/fatieluxe/profilecard/?igsh=N3o2ZXhkMnB5b3I5"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://wa.me/message/KALW23OQR7TLC1" target="_blank"><i class="fab fa-whatsapp"></i></a></li> --}}
                         </ul>
                     </div>
                 </nav>
@@ -221,13 +229,13 @@
                                 <div class="about-widget_text">
                                     Give us a call or text us on WhatsApp, <br> and we will reply shortly.
                                 </div>
-                                <div class="about-widget_phone"><a href="tel:+971502238132">+971 50 223 8132</a>
+                                <div class="about-widget_phone"><a href="tel:+971504457988">+971 50 445 7988</a>
                                 </div>
                                 <ul class="about-widget_social-links">
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://wa.me/message/KALW23OQR7TLC1" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61567927318661&mibextid=JRoKGi"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.tiktok.com/@fatieluxe?_t=8r5ub7V7ThS&_r=1"><i class="fab fa-tiktok"></i></a></li>
+                                    <li><a href="https://www.instagram.com/fatieluxe/profilecard/?igsh=N3o2ZXhkMnB5b3I5"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>

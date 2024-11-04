@@ -210,7 +210,7 @@
                                 <div class="count-outer count-box funfacts-block_number">
                                     <span class="count-text" data-speed="3000" data-stop="3">0</span><span class="plus"></span>
                                 </div>
-                                <h4 class="funfacts-block_title">branches accross UAE</h4>
+                                <h4 class="funfacts-block_title">Branches accross UAE</h4>
                             </div>
                         </div>
                     </div>
@@ -443,7 +443,7 @@
                 <div class="cta-block-one_icon-box">
                     <div class="cta-block-one_icon"><i class="flaticon-phone-call"></i></div>
                     <div class="cta-block-one_text-two">Need tayler? Call us</div>
-                  <a class="cta-block-one_phone" href="tel:+971502238132">+971 50 223 8132</a>
+                  <a class="cta-block-one_phone" href="tel:+971504457988">+971 50 445 7988</a>
                 </div>
             </div>
             <div class="col-lg-7">
